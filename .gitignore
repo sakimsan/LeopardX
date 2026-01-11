@@ -1,0 +1,15 @@
+# macOS Systemdateien
+.DS_Store
+
+# PyCharm / IDE Dateien
+.idea/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtuelle Umgebungen
+venv/
+.venv/
+env/
