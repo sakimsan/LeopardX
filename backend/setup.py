@@ -1,16 +1,9 @@
-"""
-Setup script for the TradingAgents package.
-"""
-
 from setuptools import setup, find_packages
 
 setup(
-    name="tradingagents",
+    name="vanillatrade_backend",
     version="0.1.0",
     description="Multi-Agents LLM Financial Trading Framework",
-    author="TradingAgents Team",
-    author_email="yijia.xiao@cs.ucla.edu",
-    url="https://github.com/TauricResearch",
     packages=find_packages(),
     install_requires=[
         "langchain>=0.1.0",
@@ -33,11 +26,5 @@ setup(
         ],
     },
     classifiers=[
-        "Development Status :: 3 - Alpha",
-        "Intended Audience :: Financial and Trading Industry",
-        "License :: OSI Approved :: Apache Software License",
-        "Programming Language :: Python :: 3",
-        "Programming Language :: Python :: 3.10",
-        "Topic :: Office/Business :: Financial :: Investment",
     ],
 )
