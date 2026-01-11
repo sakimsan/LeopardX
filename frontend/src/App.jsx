@@ -25,7 +25,7 @@ function App() {
 
   return (
     <div style={{ padding: '40px', fontFamily: 'sans-serif', backgroundColor: '#0f172a', color: 'white', minHeight: '100vh' }}>
-      <h1>Trading Agent Dashboard</h1>
+      <h1>VanillaTrade Dashboard</h1>
 
       <div style={{ display: 'flex', gap: '10px', marginBottom: '30px' }}>
         <input
