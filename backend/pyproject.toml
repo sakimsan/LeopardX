@@ -1,5 +1,5 @@
 [project]
-name = "vanillatrade_backend"
+name = "leopard_backend"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -33,3 +33,9 @@ dependencies = [
     "typing-extensions>=4.14.0",
     "yfinance>=0.2.63",
 ]
+[project.scripts]
+tradingagents = "cli.main:app"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["tradingagents*", "cli*"]

@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="vanillatrade_backend",
+    name="leopard_backend",
     version="0.1.0",
     description="Multi-Agents LLM Financial Trading Framework",
     packages=find_packages(),
