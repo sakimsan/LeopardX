@@ -4,7 +4,8 @@ setup(
     name="leopard_backend",
     version="0.1.0",
     description="Multi-Agents LLM Financial Trading Framework",
-    packages=find_packages(),
+    packages=find_packages(where="backend"),
+    package_dir={"": "backend"},
     install_requires=[
         "langchain>=0.1.0",
         "langchain-openai>=0.0.2",
