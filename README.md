@@ -137,6 +137,8 @@ Synthesizes insights from analysts and researchers to formulate trading strategi
 
 </details>
 
+</div>
+
 ---
 
 ## 🚀 Installation
@@ -309,4 +311,5 @@ you may not use this file except in compliance with the License.
 
 [⬆ Back to Top](#-leopardx)
 
+</div>
 </div>
