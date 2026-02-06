@@ -143,10 +143,7 @@ Synthesizes insights from analysts and researchers to formulate trading strategi
 
 ### Prerequisites
 
-```
-Python 3.13+
-Git
-```
+Python 3.13+ and Git are required.
 
 ### Quick Install
 
@@ -228,12 +225,14 @@ cp .env.example .env
 # Edit .env with your API keys
 ```
 
+Example `.env` file:
+
 ```ini
-# .env
 OPENAI_API_KEY=sk-...
 ALPHA_VANTAGE_API_KEY=your-key
 ```
 
+---
 
 ## ⚙️ Configuration
 
@@ -287,6 +286,7 @@ Submit a PR
 </tr>
 </table>
 
+---
 
 ## 📄 License
 
@@ -300,9 +300,6 @@ you may not use this file except in compliance with the License.
 ```
 
 ---
-
-
-
 
 <div align="center">
 
