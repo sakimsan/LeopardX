@@ -1,14 +1,18 @@
 <div align="center">
 
-# 🐆 LeopardX Framework
+# 🐆 LeopardX
 
 
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
-[![Python](https://img.shields.io/badge/Python-3.13+-3776AB?logo=python&logoColor=white)](https://www.python.org/)
-[![LangGraph](https://img.shields.io/badge/Built%20with-LangGraph-FF6B6B?logo=graphql&logoColor=white)](https://github.com/langchain-ai/langgraph)
-[![OpenAI](https://img.shields.io/badge/Powered%20by-OpenAI-412991?logo=openai&logoColor=white)](https://openai.com/)
+[![License](https://img.shields.io/badge/License-Apache%202.0-FF6B35?style=for-the-badge&logo=apache&logoColor=white)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.13+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![LangGraph](https://img.shields.io/badge/Built_with-LangGraph-00C7B7?style=for-the-badge&logo=graphql&logoColor=white)](https://github.com/langchain-ai/langgraph)
+[![OpenAI](https://img.shields.io/badge/Powered_by-OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)](https://openai.com/)
 
-[Features](#-features) • [Architecture](#-architecture) • [Installation](#-installation) • [Quick Start](#-quick-start) • [Documentation](#-documentation)
+
+**[🚀 Quick Start](#-quick-start)** • 
+**[✨ Features](#-features)** • 
+**[🏗️ Architecture](#️-architecture)** • 
+**[📖 Documentation](#-documentation)** 
 
 ---
 
@@ -139,7 +143,7 @@ Synthesizes insights from analysts and researchers to formulate trading strategi
 
 ### Prerequisites
 
-```bash
+```
 Python 3.13+
 Git
 ```
@@ -148,7 +152,7 @@ Git
 
 ```bash
 # Clone the repository
-git clone https://github.com/YourUsername/LeopardX.git
+git clone https://github.com/sakimsan/LeopardX.git
 cd LeopardX
 
 # Create virtual environment
@@ -211,12 +215,14 @@ See [docs](#documentation)
 ### Setup Methods
 
 **Option 1: Environment Variables**
+
 ```bash
 export OPENAI_API_KEY="sk-..."
 export ALPHA_VANTAGE_API_KEY="your-key"
 ```
 
 **Option 2: .env File (Recommended)**
+
 ```bash
 cp .env.example .env
 # Edit .env with your API keys
@@ -242,26 +248,6 @@ ALPHA_VANTAGE_API_KEY=your-key
 | `max_position_size` | float | `10000.0` | Maximum position size (USD) |
 | `enable_short_selling` | bool | `False` | Allow short positions |
 
-### Data Vendor Configuration
-
-```python
-config.data_vendors = {
-    "core_stock_data": "yfinance",        # Price, volume, splits
-    "technical_indicators": "yfinance",    # RSI, MACD, etc.
-    "fundamental_data": "alpha_vantage",   # Financials, ratios
-    "news_data": "alpha_vantage",          # News articles
-    "sentiment_data": "custom",            # Your API
-}
-```
-
-### Available Data Vendors
-
-- `yfinance` - Free, rate-limited
-- `alpha_vantage` - Free tier available, premium options
-- `openai` - Uses GPT for data interpretation
-- `custom` - Bring your own data source
-- `local` - Offline cached data
-
 ---
 
 ## 🤝 Contributing
@@ -274,21 +260,21 @@ We welcome contributions! Here's how you can help:
 
 ### 🐛 Bug Reports
 Found a bug?
-[Open an issue](https://github.com/YourUsername/LeopardX/issues)
+[Open an issue](https://github.com/sakimsan/LeopardX/issues)
 
 </td>
 <td align="center" width="25%">
 
 ### 💡 Feature Requests
 Have an idea?
-[Start a discussion](https://github.com/YourUsername/LeopardX/discussions)
+[Start a discussion](https://github.com/sakimsan/LeopardX/discussions)
 
 </td>
 <td align="center" width="25%">
 
 ### 📝 Documentation
 Improve docs
-[Edit on GitHub](https://github.com/YourUsername/LeopardX)
+[Edit on GitHub](https://github.com/sakimsan/LeopardX)
 
 </td>
 <td align="center" width="25%">
@@ -320,10 +306,10 @@ you may not use this file except in compliance with the License.
 
 <div align="center">
 
-### Built with ❤️ by traders, for traders
+### Built with ❤️ in Germany
 
 **LeopardX** - *Because the market belongs to those who adapt the fastest*
 
-[⬆ Back to Top](#-leopardx-framework)
+[⬆ Back to Top](#-leopardx)
 
 </div>
