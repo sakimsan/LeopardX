@@ -28,7 +28,6 @@ The framework deploys an elite team of specialized AI agents—each an expert in
 
 <div align="center">
 
-### ⚡ Built for Speed • 🎯 Designed for Precision • 🧠 Powered by Intelligence
 
 </div>
 
@@ -63,7 +62,6 @@ The framework deploys an elite team of specialized AI agents—each an expert in
 ### 🚀 **Developer Friendly**
 - Modular architecture with LangGraph
 - Easy-to-use Python API
-- Interactive CLI interface
 - Extensive configuration options
 
 </td>
@@ -143,9 +141,6 @@ Synthesizes insights from analysts and researchers to formulate trading strategi
 
 ## 🚀 Installation
 
-### Prerequisites
-
-Python 3.13+ and Git are required.
 
 ### Quick Install
 
